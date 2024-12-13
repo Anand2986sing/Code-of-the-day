@@ -1,0 +1,26 @@
+//MAP, FILTER, REDUCE in javaScript
+
+//MAP is same like for each loop but it always create a new array
+let arr= [ 1, 3,4,5,9]
+let a = arr.map((A) =>{
+    console.log(A);
+    return A+1;
+})
+console.log(arr, a)
+
+
+
+// Filter is something where we can use conditions
+let a1= [4,2,5,9,3];
+let newarr1 = a1.filter((A) =>{
+    return A>4;
+})
+console.log(a1, newarr1)
+
+
+//Reduce in javascript
+let a3= [3,4,5,2,41,4,3,3];
+let newarr2 = a3.reduce((A, B ) => {
+    return A + B;
+})
+console.log(newarr2);
